@@ -1,0 +1,42 @@
+name: libra
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0  # Add the latest version of cloud_firestore
+  image_picker: ^1.0.7 
+  firebase_storage: ^11.6.0
+  flutter:
+    sdk: flutter
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon_libra.png"
+  
+  web:
+    generate: true
+    image_path: "assets/icon_libra.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+ 
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon_libra.png
